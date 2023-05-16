@@ -1,0 +1,4 @@
+#!/bin/bash
+
+dir=$(dirname "$BASH_SOURCE") # gets directory name
+"$dir"/star_nfa.py "$@" # runs nfa_path.py

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+dir=$(dirname "$BASH_SOURCE")
+"$dir"/tm_to_sed.py "$@"

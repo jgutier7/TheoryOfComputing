@@ -1,0 +1,6 @@
+#!/bin/bash
+
+dir=$(dirname "$BASH_SOURCE") # gets directory name
+"$dir"/re_to_nfa.py "$@" # runs nfa_path.py
+
+
